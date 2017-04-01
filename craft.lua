@@ -1,7 +1,7 @@
 --[[
-Craft v1.03272017
+Craft v1.03312017
 
-Copyright © 2016, Mojo
+Copyright © 2017 Mojo
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -30,7 +30,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 _addon.name     = 'craft'
 _addon.author   = 'Mojo'
-_addon.version  = '1.03272017'
+_addon.version  = '1.03312017'
 _addon.commands = {'craft'}
 
 require('chat')
@@ -343,6 +343,7 @@ end
 
 local function poke_vendor(item_id)
     local mob, npc = validate(vendors)
+    skip_delay = true
     if npc then
         conditions['vendor'] = item_id
         local p = packets.new('outgoing', 0x01a, {
@@ -355,7 +356,6 @@ local function poke_vendor(item_id)
         packets.inject(p)
         return busy_wait('vendor', 90, "selling items")
     end
-    skip_delay = true
 end
 
 local function unblock_sort(id, data)
@@ -405,7 +405,7 @@ end
 
 local function consume_item(item)
     windower.chat.input('/item \"%s\" <me>':format(item))
-    coroutine.sleep(4)
+    coroutine.sleep(3.5)
     inventory = windower.ffxi.get_items()
 end
 
@@ -469,7 +469,7 @@ local function consume_food()
     local id, index = fetch_ingredient(food)
     if index then
         windower.chat.input('/item \"%s\" <me>':format(food))
-        coroutine.sleep(4)
+        coroutine.sleep(3.5)
     else
         warning("Unable to consume %s":format(food))
     end
@@ -531,6 +531,7 @@ local function issue_synthesis(item)
             local q = packets.new('outgoing', 0x59)
             packets.inject(q)
         end
+        coroutine.sleep(0.8)
         conditions['sort'] = false
         return status
     else
@@ -589,7 +590,7 @@ local function put(args)
         busy_wait('move', 10, 'moving %s':format(args['name']))
     end
     conditions['sort'] = false
-    coroutine.sleep(4)
+    coroutine.sleep(3.5)
     skip_delay = true
 end
 
@@ -748,7 +749,7 @@ local function handle_put(ingredient, bag)
         local args = {
             ['id'] = id,
             ['bag'] = bag,
-            ['name'] = name,
+            ['name'] = name.en,
         }
         local item = {put, args}
         if bag then
@@ -849,10 +850,12 @@ end
 
 handlers['clear'] = handle_clear
 handlers['repeat'] = handle_repeat
+handlers['r'] = handle_repeat
 handlers['set_delay'] = handle_set_delay
 handlers['pause'] = handle_pause
 handlers['resume'] = handle_resume
 handlers['make'] = handle_make
+handlers['m'] = handle_make
 handlers['display'] = handle_display
 handlers['put'] = handle_put
 handlers['set_food'] = handle_set_food
@@ -863,6 +866,7 @@ handlers['support'] = handle_support
 handlers['sell'] = handle_sell
 handlers['turbosell'] = handle_turbosell
 handlers['turbo'] = handle_turbo
+handlers['t'] = handle_turbo
 handlers['find'] = handle_find
 
 local function handle_command(...)
@@ -873,8 +877,10 @@ local function handle_command(...)
         if msg then
             error(msg)
         end
-    else
+    elseif cmd then
         error("unknown command %s":format(cmd))
+    else
+        error("no command passed")
     end
 end
 
