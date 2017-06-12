@@ -571,7 +571,7 @@ return {
             "Tama-Hagane",
             "Elm Lumber",
             "Thokcha Ingot",
-            "B. Leather Missive",
+            "Behem. Leather",
             "Khimaira Mane",
         },
     },
@@ -1823,6 +1823,63 @@ return {
             "Silk Cloth",
         },
     },
+    ["Arke Corazza"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Rainbow Thread",
+            "Rainbow Cloth",
+            "Gabbrath Horn",
+            "Tartarian Chain",
+            "Tartarian Chain",
+            "Faulpie Leather",
+            "Faulpie Leather",
+            "Faulpie Leather",
+        },
+    },
+    ["Arke Cosciales"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Rainbow Thread",
+            "Rainbow Cloth",
+            "Gabbrath Horn",
+            "Tartarian Chain",
+            "Faulpie Leather",
+            "Faulpie Leather",
+            "Faulpie Leather",
+        },
+    },
+    ["Arke Gambieras"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Rainbow Thread",
+            "Gabbrath Horn",
+            "Tartarian Chain",
+            "Faulpie Leather",
+            "Faulpie Leather",
+        },
+    },
+    ["Arke Manopolas"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Rainbow Thread",
+            "Rainbow Thread",
+            "Gabbrath Horn",
+            "Tartarian Chain",
+            "Faulpie Leather",
+            "Faulpie Leather",
+        },
+    },
+    ["Arke Zuchetto"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Rainbow Thread",
+            "Rainbow Cloth",
+            "Gabbrath Horn",
+            "Tartarian Chain",
+            "Faulpie Leather",
+            "Faulpie Leather",
+        },
+    },
     ["Armoire"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
@@ -2260,6 +2317,64 @@ return {
             "Buffalo Jerky",
             "Chalaimbille",
             "Winterflower",
+        },
+    },
+    ["Baayami Cuffs"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Darksteel Sheet",
+            "Waktza Rostrum",
+            "Plovid Flesh",
+            "Khoma Thread",
+            "Khoma Thread",
+            "Khoma Thread",
+        },
+    },
+    ["Baayami Hat"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Darksteel Chain",
+            "Waktza Rostrum",
+            "Plovid Flesh",
+            "Khoma Thread",
+            "Khoma Thread",
+            "Khoma Thread",
+        },
+    },
+    ["Baayami Robe"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Darksteel Chain",
+            "Waktza Rostrum",
+            "Plovid Flesh",
+            "Plovid Flesh",
+            "Khoma Thread",
+            "Khoma Cloth",
+        },
+    },
+    ["Baayami Sabots"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Waktza Rostrum",
+            "Plovid Flesh",
+            "Khoma Thread",
+            "Khoma Thread",
+            "Khoma Thread",
+        },
+    },
+    ["Baayami Slops"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Darksteel Chain",
+            "Waktza Rostrum",
+            "Plovid Flesh",
+            "Khoma Thread",
+            "Khoma Cloth",
         },
     },
     ["Baghnakhs"] = {
@@ -3078,8 +3193,8 @@ return {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
             "Arrowwood Lbr.",
+            "Chocobo Fltchg.",
             "Beetle Arrowhd.",
-            "Blk. Chc. Fltchg.",
         },
     },
     ["Beetle Arrowheads"] = {
@@ -3186,7 +3301,7 @@ return {
     ["Behemoth Cesti"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
-            "B. Leather Missive",
+            "Behem. Leather",
             "Cesti",
         },
     },
@@ -3260,7 +3375,7 @@ return {
     ["Bewitched Ash Lumber"] = {
         ["crystal"] = "Wind Crystal",
         ["ingredients"] = {
-            "Ash Lumber",
+            "Ash Log",
             "Fire Anima",
             "Ice Anima",
             "Light Anima",
@@ -5200,7 +5315,7 @@ return {
         },
     },
     ["Bonecraft Set 45"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Dhalmel Leather",
             "Crab Shell",
@@ -5235,14 +5350,14 @@ return {
         },
     },
     ["Bonecraft Set 85"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Imp Horn",
             "Colibri Beak",
         },
     },
     ["Bonecraft Set 90"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Beetle Jaw",
             "Dragon Talon",
@@ -5250,7 +5365,7 @@ return {
         },
     },
     ["Bonecraft Set 95"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Sheep Leather",
             "Ram Leather",
@@ -6421,7 +6536,7 @@ return {
             "Dhalmel Leather",
             "Ram Leather",
             "Tiger Leather",
-            "B. Leather Missive",
+            "Behem. Leather",
             "Silver Mail",
         },
     },
@@ -7661,7 +7776,7 @@ return {
         },
     },
     ["Clothcraft Kit 25"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Linen Thread",
             "Linen Cloth",
@@ -7671,7 +7786,7 @@ return {
         },
     },
     ["Clothcraft Kit 45"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Wool Thread",
             "Wool Cloth",
@@ -7680,7 +7795,7 @@ return {
         },
     },
     ["Clothcraft Kit 64"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Wool Thread",
             "Silk Cloth",
@@ -7688,7 +7803,7 @@ return {
         },
     },
     ["Clothcraft Kit 70"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Gold Thread",
             "Gold Thread",
@@ -7696,14 +7811,14 @@ return {
         },
     },
     ["Clothcraft Kit 75"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Imp. Silk Cloth",
             "Battle Bracers",
         },
     },
     ["Clothcraft Kit 80"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Rainbow Thread",
             "Rainbow Thread",
@@ -7714,14 +7829,14 @@ return {
         },
     },
     ["Clothcraft Kit 85"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Rainbow Cloth",
             "Carbon Fiber",
         },
     },
     ["Clothcraft Kit 90"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Rainbow Thread",
             "Rainbow Thread",
@@ -7732,7 +7847,7 @@ return {
         },
     },
     ["Clothcraft Kit 95"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Wool Thread",
             "Rainbow Thread",
@@ -9106,8 +9221,8 @@ return {
             "Velvet Cloth",
             "Rainbow Cloth",
             "Ram Leather",
+            "Behem. Leather",
             "Siren's Macrame",
-            "B. Leather Missive",
         },
     },
     ["Cursed Diechlings"] = {
@@ -10311,10 +10426,10 @@ return {
     ["Demon's Harness"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
+            "Behem. Leather",
+            "Behem. Leather",
             "Demon Skull",
             "Demon Skull",
-            "B. Leather Missive",
-            "B. Leather Missive",
         },
     },
     ["Demon's Knife"] = {
@@ -10946,7 +11061,7 @@ return {
     ["Dusk Gloves"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
-            "B. Leather Missive",
+            "Behem. Leather",
             "Tiger Gloves",
         },
     },
@@ -10954,29 +11069,29 @@ return {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
             "Gold Ingot",
+            "Behem. Leather",
             "Wyvern Skin",
-            "B. Leather Missive",
             "Northern Jerkin",
         },
     },
     ["Dusk Ledelsens"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
-            "B. Leather Missive",
+            "Behem. Leather",
             "Tiger Ledelsens",
         },
     },
     ["Dusk Mask"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
-            "B. Leather Missive",
+            "Behem. Leather",
             "Coeurl Mask",
         },
     },
     ["Dusk Trousers"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
-            "B. Leather Missive",
+            "Behem. Leather",
             "Tiger Trousers",
         },
     },
@@ -11072,8 +11187,8 @@ return {
     ["Dynamic Belt"] = {
         ["crystal"] = "Wind Crystal",
         ["ingredients"] = {
+            "Behem. Leather",
             "Mercury",
-            "B. Leather Missive",
             "Umbril Ooze",
         },
     },
@@ -11104,6 +11219,64 @@ return {
             "Moonbow Urushi",
             "Cypress Lumber",
             "Balmung",
+        },
+    },
+    ["Ea Cuffs"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Gold Sheet",
+            "Bztavian Stinger",
+            "Defiant Scarf",
+            "Niobium Ore",
+            "Niobium Ore",
+            "Niobium Ore",
+        },
+    },
+    ["Ea Hat"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Gold Chain",
+            "Bztavian Stinger",
+            "Defiant Scarf",
+            "Niobium Ore",
+            "Niobium Ore",
+            "Niobium Ore",
+        },
+    },
+    ["Ea Houppelande"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Gold Chain",
+            "Bztavian Stinger",
+            "Defiant Scarf",
+            "Defiant Scarf",
+            "Niobium Ore",
+            "Niobium Ingot",
+        },
+    },
+    ["Ea Pigaches"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Bztavian Stinger",
+            "Defiant Scarf",
+            "Niobium Ore",
+            "Niobium Ore",
+            "Niobium Ore",
+        },
+    },
+    ["Ea Slops"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Gold Chain",
+            "Bztavian Stinger",
+            "Defiant Scarf",
+            "Niobium Ore",
+            "Niobium Ingot",
         },
     },
     ["Earth Anima"] = {
@@ -11241,8 +11414,8 @@ return {
         ["ingredients"] = {
             "Silver Ingot",
             "Silver Chain",
+            "Behem. Leather",
             "Taffeta Cloth",
-            "B. Leather Missive",
             "Scintillant Ingot",
             "Ruszor Leather",
             "Cambric",
@@ -12815,7 +12988,7 @@ return {
             "Darksteel Ingot",
             "Mahogany Lbr.",
             "Gold Ingot",
-            "S. Smil. Leather",
+            "Smildn. Leather",
         },
     },
     ["Flashbulb"] = {
@@ -13599,7 +13772,7 @@ return {
         },
     },
     ["Glass Fiber"] = {
-        ["crystal"] = "Wind Crystal",
+        ["crystal"] = "Lightng. Crystal",
         ["ingredients"] = {
             "Goblin Mask",
         },
@@ -14156,21 +14329,21 @@ return {
         },
     },
     ["Goldsmithing Set 25"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Silver Ingot",
             "Lizard Belt",
         },
     },
     ["Goldsmithing Set 45"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Peridot",
             "Mythril Earring",
         },
     },
     ["Goldsmithing Set 65"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Moonstone",
             "Gold Earring",
@@ -14210,7 +14383,7 @@ return {
         },
     },
     ["Goldsmithing Set 90"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Gold Ingot",
             "Emerald",
@@ -15562,7 +15735,7 @@ return {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
             "Ormolu Ingot",
-            "B. Leather Missive",
+            "Behem. Leather",
             "Pelt of Dawon",
             "Sealord Leather",
             "Sealord Leather",
@@ -15670,6 +15843,63 @@ return {
             "Befouled Silver",
             "Staghorn Coral",
             "Sealord Leather",
+        },
+    },
+    ["Heyoka Cap"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Darksteel Chain",
+            "Yggdreant Root",
+            "Macuil Horn",
+            "Faulpie Leather",
+            "Faulpie Leather",
+        },
+    },
+    ["Heyoka Harness"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Darksteel Chain",
+            "Yggdreant Root",
+            "Macuil Horn",
+            "Macuil Horn",
+            "Faulpie Leather",
+            "Faulpie Leather",
+            "Faulpie Leather",
+        },
+    },
+    ["Heyoka Leggings"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Yggdreant Root",
+            "Macuil Horn",
+            "Faulpie Leather",
+            "Faulpie Leather",
+        },
+    },
+    ["Heyoka Mittens"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Darksteel Sheet",
+            "Yggdreant Root",
+            "Macuil Horn",
+            "Faulpie Leather",
+            "Faulpie Leather",
+        },
+    },
+    ["Heyoka Subligar"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Darksteel Chain",
+            "Yggdreant Root",
+            "Macuil Horn",
+            "Faulpie Leather",
+            "Faulpie Leather",
+            "Faulpie Leather",
         },
     },
     ["Hi-Ether"] = {
@@ -16864,7 +17094,7 @@ return {
         ["ingredients"] = {
             "Arrowwood Lbr.",
             "Iron Arrowheads",
-            "Blk. Chc. Fltchg.",
+            "Chocobo Fltchg.",
         },
     },
     ["Iron Arrowheads"] = {
@@ -17667,6 +17897,63 @@ return {
             "Brass Zaghnal",
         },
     },
+    ["Kendatsuba Hakama"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Rainbow Thread",
+            "Rainbow Cloth",
+            "Cehuetzi Pelt",
+            "Defiant Sweat",
+            "Cypress Lumber",
+            "Cypress Lumber",
+            "Cypress Lumber",
+        },
+    },
+    ["Kendatsuba Jinpachi"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Rainbow Thread",
+            "Rainbow Cloth",
+            "Cehuetzi Pelt",
+            "Defiant Sweat",
+            "Cypress Lumber",
+            "Cypress Lumber",
+        },
+    },
+    ["Kendatsuba Samue"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Rainbow Thread",
+            "Rainbow Cloth",
+            "Cehuetzi Pelt",
+            "Defiant Sweat",
+            "Defiant Sweat",
+            "Cypress Lumber",
+            "Cypress Lumber",
+            "Cypress Lumber",
+        },
+    },
+    ["Kendatsuba Sune-Ate"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Rainbow Thread",
+            "Cehuetzi Pelt",
+            "Defiant Sweat",
+            "Cypress Lumber",
+            "Cypress Lumber",
+        },
+    },
+    ["Kendatsuba Tekko"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Rainbow Thread",
+            "Rainbow Thread",
+            "Cehuetzi Pelt",
+            "Defiant Sweat",
+            "Cypress Lumber",
+            "Cypress Lumber",
+        },
+    },
     ["Kenpogi"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
@@ -18392,8 +18679,8 @@ return {
     ["Lavalier"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
+            "Behem. Leather",
             "Manticore Hair",
-            "B. Leather Missive",
         },
     },
     ["Leather Bandana"] = {
@@ -18520,7 +18807,7 @@ return {
         },
     },
     ["Leathercraft Set 66"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Iron Scales",
             "Ram Leather",
@@ -18557,7 +18844,7 @@ return {
         },
     },
     ["Leathercraft Set 90"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Gold Chain",
             "Manticore Lth.",
@@ -18565,7 +18852,7 @@ return {
         },
     },
     ["Leathercraft Set 95"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Grass Thread",
             "Peiste Skin",
@@ -20077,6 +20364,19 @@ return {
             "Pizza Cutter",
         },
     },
+    ["Marine Stewpot"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Fish Stock",
+            "Distilled Water",
+            "Mola Mola",
+            "Cotton Tofu",
+            "Cibol",
+            "Shungiku",
+            "Shirataki",
+            "Agaricus",
+        },
+    },
     ["Maringna"] = {
         ["crystal"] = "Fire Crystal",
         ["ingredients"] = {
@@ -21027,6 +21327,65 @@ return {
         ["ingredients"] = {
             "Gold Earring",
             "Morion Tathlum",
+        },
+    },
+    ["Mousai Crackows"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Cashmere Thrd.",
+            "Yggdreant Bole",
+            "Plovid Effluvium",
+            "Hades' Claw",
+            "Cyan Orb",
+            "Cyan Orb",
+        },
+    },
+    ["Mousai Gages"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Cashmere Thrd.",
+            "Cashmere Thrd.",
+            "Yggdreant Bole",
+            "Plovid Effluvium",
+            "Hades' Claw",
+            "Cyan Orb",
+            "Cyan Orb",
+        },
+    },
+    ["Mousai Manteel"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Cashmere Cloth",
+            "Yggdreant Bole",
+            "Plovid Effluvium",
+            "Plovid Effluvium",
+            "Hades' Claw",
+            "Cyan Orb",
+            "Cyan Orb",
+            "Cyan Orb",
+        },
+    },
+    ["Mousai Seraweels"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Cashmere Cloth",
+            "Yggdreant Bole",
+            "Plovid Effluvium",
+            "Hades' Claw",
+            "Cyan Orb",
+            "Cyan Orb",
+            "Cyan Orb",
+        },
+    },
+    ["Mousai Turban"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Cashmere Cloth",
+            "Yggdreant Bole",
+            "Plovid Effluvium",
+            "Hades' Claw",
+            "Cyan Orb",
+            "Cyan Orb",
         },
     },
     ["Movalpolos Water"] = {
@@ -22585,6 +22944,63 @@ return {
             "Nopales",
         },
     },
+    ["Oshosi Gloves"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Gold Sheet",
+            "Waktza Crest",
+            "Plovid Flesh",
+            "Cypress Lumber",
+            "Cypress Lumber",
+        },
+    },
+    ["Oshosi Leggings"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Waktza Crest",
+            "Plovid Flesh",
+            "Cypress Lumber",
+            "Cypress Lumber",
+        },
+    },
+    ["Oshosi Mask"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Gold Chain",
+            "Waktza Crest",
+            "Plovid Flesh",
+            "Cypress Lumber",
+            "Cypress Lumber",
+        },
+    },
+    ["Oshosi Trousers"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Gold Chain",
+            "Waktza Crest",
+            "Plovid Flesh",
+            "Cypress Lumber",
+            "Cypress Lumber",
+            "Cypress Lumber",
+        },
+    },
+    ["Oshosi Vest"] = {
+        ["crystal"] = "Earth Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Gold Chain",
+            "Waktza Crest",
+            "Plovid Flesh",
+            "Plovid Flesh",
+            "Cypress Lumber",
+            "Cypress Lumber",
+            "Cypress Lumber",
+        },
+    },
     ["Osseous Serum"] = {
         ["crystal"] = "Water Crystal",
         ["ingredients"] = {
@@ -22730,10 +23146,10 @@ return {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
             "Adaman Sheet",
+            "Behem. Leather",
+            "Behem. Leather",
             "Mercury",
             "Siren's Macrame",
-            "B. Leather Missive",
-            "B. Leather Missive",
             "Fiendish Skin",
             "Scintillant Ingot",
             "Tanzanite Jewel",
@@ -23645,6 +24061,63 @@ return {
             "Cook. Kit 30",
         },
     },
+    ["Pinga Crown"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Darksteel Chain",
+            "Rockfin Tooth",
+            "Defiant Scarf",
+            "Azure Cermet",
+            "Azure Cermet",
+        },
+    },
+    ["Pinga Mittens"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Darksteel Sheet",
+            "Rockfin Tooth",
+            "Defiant Scarf",
+            "Azure Cermet",
+            "Azure Cermet",
+        },
+    },
+    ["Pinga Pants"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Darksteel Chain",
+            "Rockfin Tooth",
+            "Defiant Scarf",
+            "Azure Cermet",
+            "Azure Cermet",
+            "Azure Cermet",
+        },
+    },
+    ["Pinga Pumps"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Rockfin Tooth",
+            "Defiant Scarf",
+            "Azure Cermet",
+            "Azure Cermet",
+        },
+    },
+    ["Pinga Tunic"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Darksteel Sheet",
+            "Darksteel Chain",
+            "Rockfin Tooth",
+            "Defiant Scarf",
+            "Defiant Scarf",
+            "Azure Cermet",
+            "Azure Cermet",
+            "Azure Cermet",
+        },
+    },
     ["Pinwheel"] = {
         ["crystal"] = "Wind Crystal",
         ["ingredients"] = {
@@ -23949,8 +24422,8 @@ return {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
             "Arrowwood Lbr.",
+            "Chocobo Fltchg.",
             "Poison Arrowhd.",
-            "Blk. Chc. Fltchg.",
         },
     },
     ["Poison Arrowheads"] = {
@@ -24278,7 +24751,7 @@ return {
             "Mercury",
             "Cassia Lumber",
             "Cassia Lumber",
-            "Ethrl. Vermilion",
+            "Vrml. Lacquer",
         },
     },
     ["Prism Powder"] = {
@@ -24450,7 +24923,7 @@ return {
     ["Pya'ekue Belt"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
-            "B. Leather Missive",
+            "Behem. Leather",
             "Bztavian Wing",
             "Phos Belt",
         },
@@ -24973,6 +25446,63 @@ return {
         ["crystal"] = "Fire Crystal",
         ["ingredients"] = {
             "Cook. Kit 65",
+        },
+    },
+    ["Ratri Breastplate"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Gold Chain",
+            "Cehuetzi Claw",
+            "Macuil Plating",
+            "Macuil Plating",
+            "Azure Cermet",
+            "Azure Cermet",
+            "Azure Cermet",
+        },
+    },
+    ["Ratri Cuisses"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Gold Chain",
+            "Cehuetzi Claw",
+            "Macuil Plating",
+            "Azure Cermet",
+            "Azure Cermet",
+            "Azure Cermet",
+        },
+    },
+    ["Ratri Gadlings"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Gold Sheet",
+            "Cehuetzi Claw",
+            "Macuil Plating",
+            "Azure Cermet",
+            "Azure Cermet",
+        },
+    },
+    ["Ratri Sallet"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Gold Chain",
+            "Cehuetzi Claw",
+            "Macuil Plating",
+            "Azure Cermet",
+            "Azure Cermet",
+        },
+    },
+    ["Ratri Sollerets"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Gold Sheet",
+            "Cehuetzi Claw",
+            "Macuil Plating",
+            "Azure Cermet",
+            "Azure Cermet",
         },
     },
     ["Ravenous Breastplate"] = {
@@ -26076,7 +26606,7 @@ return {
         },
     },
     ["Saber 2"] = {
-        ["crystal"] = "Water Crystal",
+        ["crystal"] = "Fire Crystal",
         ["ingredients"] = {
             "Alch. Kit 70",
         },
@@ -26722,7 +27252,7 @@ return {
             "Gold Ingot",
             "Rainbow Thread",
             "Scintillant Ingot",
-            "S. Smil. Leather",
+            "Smildn. Leather",
         },
     },
     ["Sasuke Shuriken"] = {
@@ -27238,7 +27768,7 @@ return {
             "Lqr. Tree Sap",
             "Lqr. Tree Sap",
             "Lqr. Tree Sap",
-            "Ethrl. Vermilion",
+            "Vrml. Lacquer",
             "Honey",
         },
     },
@@ -28337,7 +28867,7 @@ return {
             "Ocl. Ingot",
             "Ocl. Ingot",
             "Mercury",
-            "S. Smil. Leather",
+            "Smildn. Leather",
             "Darksteel Hexagun",
         },
     },
@@ -28838,7 +29368,7 @@ return {
     ["Smilodon Ring"] = {
         ["crystal"] = "Wind Crystal",
         ["ingredients"] = {
-            "S. Smil. Leather",
+            "Smildn. Leather",
         },
     },
     ["Smithing Set 25"] = {
@@ -28874,7 +29404,7 @@ return {
         },
     },
     ["Smithing Set 76"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Darksteel Ingot",
             "Tin Ingot",
@@ -28890,7 +29420,7 @@ return {
         },
     },
     ["Smithing Set 84"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Steel Sheet",
             "Darksteel Mufflers",
@@ -29770,7 +30300,6 @@ return {
             "High Ebonite",
             "Black Ghost",
             "Water Tank",
-            "Water Tank",
         },
     },
     ["Stamina Apple"] = {
@@ -30053,7 +30582,7 @@ return {
         ["ingredients"] = {
             "Arrowwood Lbr.",
             "Stone Arrowhd.",
-            "Blk. Chc. Fltchg.",
+            "Chocobo Fltchg.",
         },
     },
     ["Stone Arrowheads"] = {
@@ -30233,7 +30762,7 @@ return {
             "Darksteel Sheet",
             "Dhalmel Leather",
             "Tiger Leather",
-            "B. Leather Missive",
+            "Behem. Leather",
             "Herensugue Skin",
             "Silver Mail",
         },
@@ -30849,8 +31378,8 @@ return {
     ["Testudo Mantle"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
+            "Behem. Leather",
             "Manticore Hair",
-            "B. Leather Missive",
             "Herensugue Skin",
         },
     },
@@ -31741,6 +32270,64 @@ return {
             "Vanir Battery",
         },
     },
+    ["Turms Cap"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Tiger Leather",
+            "Cermet Chunk",
+            "Bztavian Wing",
+            "Macuil Horn",
+            "Ruthenium Ore",
+            "Ruthenium Ore",
+            "Ruthenium Ore",
+        },
+    },
+    ["Turms Harness"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Tiger Leather",
+            "Cermet Chunk",
+            "Bztavian Wing",
+            "Macuil Horn",
+            "Macuil Horn",
+            "Ruthenium Ore",
+            "Ruthenium Ingot",
+        },
+    },
+    ["Turms Leggings"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Tiger Leather",
+            "Bztavian Wing",
+            "Macuil Horn",
+            "Ruthenium Ore",
+            "Ruthenium Ore",
+            "Ruthenium Ore",
+        },
+    },
+    ["Turms Mittens"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Tiger Leather",
+            "Tiger Leather",
+            "Bztavian Wing",
+            "Macuil Horn",
+            "Ruthenium Ore",
+            "Ruthenium Ore",
+            "Ruthenium Ore",
+        },
+    },
+    ["Turms Subligar"] = {
+        ["crystal"] = "Fire Crystal",
+        ["ingredients"] = {
+            "Tiger Leather",
+            "Cermet Chunk",
+            "Bztavian Wing",
+            "Macuil Horn",
+            "Ruthenium Ore",
+            "Ruthenium Ingot",
+        },
+    },
     ["Turquoise Earring"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
@@ -31964,7 +32551,7 @@ return {
             "Darksteel Sheet",
             "Gold Thread",
             "Tiger Leather",
-            "B. Leather Missive",
+            "Behem. Leather",
             "Unicorn Horn",
         },
     },
@@ -31973,7 +32560,7 @@ return {
         ["ingredients"] = {
             "Gold Thread",
             "Tiger Leather",
-            "B. Leather Missive",
+            "Behem. Leather",
             "Unicorn Horn",
             "Unicorn Horn",
         },
@@ -31982,9 +32569,9 @@ return {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
             "Gold Thread",
+            "Behem. Leather",
+            "Behem. Leather",
             "Wyvern Scales",
-            "B. Leather Missive",
-            "B. Leather Missive",
             "Unicorn Horn",
         },
     },
@@ -31992,16 +32579,16 @@ return {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
             "Gold Thread",
+            "Behem. Leather",
             "Wyvern Scales",
-            "B. Leather Missive",
             "Unicorn Horn",
         },
     },
     ["Unicorn Subligar"] = {
         ["crystal"] = "Earth Crystal",
         ["ingredients"] = {
+            "Behem. Leather",
             "Taffeta Cloth",
-            "B. Leather Missive",
             "Unicorn Horn",
         },
     },
@@ -34319,7 +34906,7 @@ return {
         },
     },
     ["Woodworking Set 25"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Lauan Lumber",
             "Elm Lumber",
@@ -34339,7 +34926,7 @@ return {
         },
     },
     ["Woodworking Set 71"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Ebony Lumber",
             "Ebony Lumber",
@@ -34354,7 +34941,7 @@ return {
         },
     },
     ["Woodworking Set 81"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Holly Lumber",
             "Oak Lumber",
@@ -34364,7 +34951,7 @@ return {
         },
     },
     ["Woodworking Set 84"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Ancient Lumber",
             "Ancient Lumber",
@@ -34372,7 +34959,7 @@ return {
         },
     },
     ["Woodworking Set 90"] = {
-        ["crystal"] = "Terra Crystal",
+        ["crystal"] = "Geo Crystal",
         ["ingredients"] = {
             "Ancient Lumber",
             "Ancient Lumber",
